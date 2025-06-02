@@ -187,6 +187,8 @@ section {
     font-family: Bld;
     font-size: 3.88888889vw;
     white-space: nowrap;
+    padding-bottom: 1.11111111vw;
+    border-bottom: 1px solid;
 }
 
 .card_section {
@@ -205,6 +207,8 @@ section {
     padding: 0vw 4.44444444vw 4.44444444vw 0vw;
     width: 100%;
     border-radius: 5.55555556vw;
+    left: 2.22222222vw;
+
 }
 
 .main_card img {
@@ -598,4 +602,296 @@ section {
 }  
 .explore_card_img{
     width: 100%;
+    height: 86.66666667vw;
+}
+.explore_card_img img{
+    width: 100%;
+    border-radius: 5.55555556vw;
+}
+.explore_card_heading{
+    width: 100%;
+    height: 18.33333333vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.explore_card_heading h2{
+    font-size: 4.44444444vw;
+    font-family: Sharp;
+    line-height: 1.33;
+    padding: 0;
+}
+.learn_more{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.38888889vw;
+}
+.learn_more a{
+    padding: 2.77777778vw 0vw 3.05555556vw 0vw;
+    text-decoration: none;
+    font-family: Bld;
+    font-size: 3.88888889vw;
+    line-height: 5.27777778vw;
+    text-decoration-color: black;
+}
+.explore_scroller_main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.explore_scroller{
+    display: flex;
+    padding: 1.11111111vw 2.22222222vw;
+    border: 1px solid;
+    border-radius: 4.44444444vw; 
+    align-items: center;
+}
+.o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.44444444vw;
+    height: 4.44444444vw;
+    margin-right: 1.11111111vw;
+} 
+.o div{
+    width: 50%;
+    height: 50%;
+    background: #757575;
+    border-radius: 100%;
+} 
+.something_else{
+   display: flex;
+   justify-content: center;
+    margin:  8.88888889vw 25px 4.44444444vw;
+}
+.something_else h2{
+    font-family: Sharp;
+    font-size: 7.22222222vw;
+    line-height: 1.33;
+    text-align: center;
+}
+.something_else_contents{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2.22222222vw 0 8.88888889vw; 
+}
+.something_else_search{
+    width: 100%;
+    margin: 0vw 0vw 4.44444444vw 0vw;
+    padding: 0vw 1.11111111vw;
+    height: 11.66666667vw;
+    
+}
+.something_else_search_inner{
+    display: flex;
+    padding: 2.77777778vw 12.22222222vw 2.77777778vw 11.11111111vw;
+    border-radius: 6.11111111vw;
+    border: 1px solid #757575;
+    background: #f7f7f7; 
+}
+.something_else_search_inner img{
+    position: absolute;
+    width: 4.44444444vw;
+    height: 4.44444444vw;
+    left: 5.55555556vw;
+}
+.something_else_search_inner p{
+    left: 5.55555556vw;
+    line-height: 5.55555556vw;
+    font-size: 3.88888889vw;
+    font-family: Sft;
+}
+.search_suggetion{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 2.77777778vw;
+    font-family: Sft;
+ 
+   
+} 
+.search_suggetion li{
+    margin: 0 4px 8px 4px;
+    padding: 2.22222222vw 4.44444444vw;
+    border: solid 1px rgba(0,0,0,0.15);
+    border-radius: 4.44444444vw;
+
+}
+.lists_main{
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.lists{
+    padding: 0 4.44444444vw 4.44444444vw 4.44444444vw;
+}
+.list_main{
+    margin: 0vw 0vw 3.33333333vw 5.55555556vw;
+}
+.list_main:last-child{
+    margin: 0vw 0vw 0vw 5.55555556vw;
+
+}
+
+.list_main li{
+    font-size: 2.77777778vw;
+    font-family: Sft;
+    line-height: 1.33;
+}
+.footer_drops{
+    width: 100%;
+}
+.footer_drops_items{
+    display: flex;
+    justify-content: space-between;
+    height: 15.55555556vw;
+    padding: 4.72222222vw 6.66666667vw;
+    font-size: 4.44444444vw;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    font-family: Bld;
+}
+.footer_drops_items img{
+    width: 25px;
+    height: 25px;
+}
+.footer_last{
+    padding: 8.88888889vw 0vw 6.11111111vw 0vw;
+}
+.footer_copyright{
+    padding: 0 6.66666667vw;
+}
+.footer_copyright_inner{
+    padding-bottom:  8.61111111vw;
+}
+.footer_copyright p{
+    font-size: 3.33333333vw;
+    font-family: Sft;
+}
+.footer_info{
+    margin-top: 4.44444444vw;
+    font-size: 3.33333333vw;
+    font-family: Sft;
+    line-height: 1.33;
+    max-width: 1023px;
+}
+.footer_info_inner{
+    padding-top: 4vw;
+}
+.language{
+}
+.language p{
+    font-size: 3.33333333vw;
+    padding-right: 5.55555556vw;
+    font-family: Bld;
+    margin-bottom: 6.66666667vw;
+
+} 
+.footer_socialmedia_pryvacy{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0vw 3.88888889vw;
+}
+.privacy{
+    width: 100%;
+    padding-top: 2.22222222vw;
+}
+.privacy_list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+}
+.privacy_list li{
+    padding: 2.22222222vw 3.33333333vw;
+    font-size: 3.33333333vw;
+    font-family: Sft;
+}
+.socialmedia_loop_text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2.22222222vw 0vw 4.44444444vw 0vw;
+    line-height: 1.37;
+    font-size: 3.33333333vw;
+    font-family: Sft;
+}
+.social_icons_list{
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+}
+.social_icons_list li{
+    width: 6.66666667vw;
+    height: 6.66666667vw;
+    margin: 2.22222222vw 2.22222222vw;
+}
+.social_icons_list li img{
+    width: 100%;
+}
+.carousel_img_tab{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .carousel_img_mob{
+        display: none;
+    }
+    .carousel_img_tab{
+        width: 50%;
+        display: block;
+    }
+    .carousel_content{
+        left: 6.11111111vw;
+        align-items: start;
+        width: 43.05555556vw;
+        top: unset;
+    }
+    .carousel{
+        align-items: center;
+        justify-content: start;
+        height: 44.444vw;
+    }
+    .carousel_content h2{
+        font-size: 3.33333333vw;
+    }
+    .carousel_content p{
+        font-size: 1.25vw;
+        margin-top: 1.66666667vw;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .625vw 1.59722222vw .69444444vw 1.59722222vw;
+        font-size: .97222222vw;
+        line-height: 1.31944444vw;
+        margin-top: 2.77777778vw;
+        border: 1px solid black;
+    }
+    .this_week{
+        padding-top: 3.33333333vw;
+        margin-bottom: 1.11111111vw;
+
+    }
+    .this_week h2{
+        font-size: 2.63888889vw;
+        max-width: 96.66666667vw;
+
+    }
+    .tabs_black{
+        justify-content: center;
+        height: 4.02777778vw;
+        margin-bottom: unset;
+    }
+    .tabs{
+        margin-right: 3.33333333vw;
+        width: unset; 
+    }
+    .tabs p{
+        font-size: 1.25vw;
+        line-height: 1.66666667vw;
+        padding-bottom: unset;
+    }
 }
