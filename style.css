@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: Bld;
-    src: url(./fonts/SamsungOne-700.woff2);
+    src: url(./fonts/SamsungOne-700.woff2); 
 }
 
 @font-face {
@@ -93,30 +93,32 @@ section {
     align-items: center;
     position: absolute;
     width: 100%;
-    top: 7.5%;
+    top: 11.11111111vw;
 }
 
 .carousel_content h2 {
     font-size: 8.33333333vw;
     font-family: Sharp;
-    line-height: 1.3;
+    line-height: 1.333;
 }
 
 .carousel_content p {
     margin-top: 4.44444444vw;
     font-size: 3.88888889vw;
     font-family: sft;
-}
+    line-height: 1.33; 
+} 
 
-.button {
-    margin-top: 6.66666667vw;
+.button { 
+    margin-top: 6.66666667vw; 
     background: #000000;
-    border: 0;
-    color: white;
-    font-family: Bld;
+    border: 0;  
+    color: white; 
+    font-family: Bld; 
     border-radius: 5.55555556vw;
-    padding: 2.5vw 6.38888889vw 2.77777778vw 6.38888889vw;
+    padding: 2.5vw 6.38888889vw 2.77777778vw 6.38888889vw; 
     font-size: 3.88888889vw;
+    line-height: 5.27777778vw;
 }
 
 .carousel_slider {
@@ -193,6 +195,7 @@ section {
 
 .card_section {
     display: flex;
+    position: relative;
     flex-direction: row;
     flex-wrap: wrap;
     width: 91.11111111vw;
@@ -283,8 +286,7 @@ section {
     position: absolute;
     top: 0;
     z-index: 111;
-
-}
+} 
 
 .prd_header h2 {
     margin-top: 8.88888889vw;
@@ -304,7 +306,7 @@ section {
     align-items: center;
     margin-bottom: 3.61111111vw;
     color: white;
-    font-family: Bld;
+    font-family: Bld; 
     padding: 1.11111111vw 0 1.11111111vw 0;
     overflow-x: scroll;
     height: 17.7778vw;
@@ -312,7 +314,7 @@ section {
 }
 
 .tabs_black::-webkit-scrollbar {
-    display: none;
+    display: none; 
 }
 
 .tabs {
@@ -834,6 +836,18 @@ section {
 .carousel_img_tab{
     display: none;
 }
+.card_img_tab{
+    display: none;
+}
+.img_cover_tab{
+    display: none;
+}
+.img_tv_tab{
+    display: none;
+}
+.img_home_tab{
+    display: none;
+}
 @media screen and (min-width:768px) {
     .carousel_img_mob{
         display: none;
@@ -859,6 +873,9 @@ section {
     .carousel_content p{
         font-size: 1.25vw;
         margin-top: 1.66666667vw;
+    }
+    .carousel_slider_inner{
+        display: none;
     }
     .button{
         display: flex;
@@ -891,7 +908,300 @@ section {
     }
     .tabs p{
         font-size: 1.25vw;
-        line-height: 1.66666667vw;
+        line-height: 1.66666667vw;  
+        padding-bottom: unset; 
+    } 
+    .card_section{
+        width: 98.307vw; 
+        height: 49.16666667vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: unset;
+        left: .83333333vw;
+    }
+    .main_card img{
+        border-radius: 1.38888889vw;
+    }
+    .sub_cards{
+        border-radius: 1.38888889vw;
+        padding: 0vw 1.66666667vw 1.66666667vw 0vw;
+        height: 50%;
+    }
+    .sub_cards img{
+        border-radius: 1.38888889vw;
+    } 
+    .card_img_tab{
+        display: block; 
+    }
+    .card_img_mob{
+        display: none; 
+    } 
+    .main_card{
+        width: 50%;
+        padding: 0vw 1.66666667vw 1.66666667vw 0vw;
+        left: unset; 
+    }
+    .sub_cards{ 
+        width: 25%;
+        height: 50%; 
+    } 
+    .main_card_content_head h2{
+        font-size: 1.66666667vw;
+    }
+    .main_card_content p{
+        font-size: 14px;
+    }
+    .main_card_content{
+        bottom: 5.55555556vw;
+        width: 27.77777778vw;
+        margin-left: 9.86111111vw; 
+        left: 0;
+        text-align: center; 
+    }
+    .sub_card_content h2{
+        font-size: 1.25vw;
+    }
+    /* .mobile_main{
+        max-width: 1440px;
+        margin: 0 auto;
+    } */
+    .img_cover_tab{
+        display: block;
+    }
+    .img_cover_mob{
+        display: none;
+    }
+    .tabs_prd{
+        height: 4.44444444vw; 
+    } 
+    .prd_header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0vw 6.66666667vw;
+
+    }
+    .prd_header h2{
+        margin-top: 3.33333333vw;
+        font-size: 2.63888889vw;
+    }
+    .filter_content_button{
+        height: 6.11111111vw; 
+        padding: .55555556vw; 
+
+    }
+    .filter_content_button button{
+        padding: .625vw 1.59722222vw .69444444vw 1.59722222vw;
+        font-size: .97222222vw;
+
+    }
+    .filter_content_main{
+        padding-top: unset; 
+    }
+    .filter_content{
+        margin-top: unset; 
+    }
+    .filter_content h2{
+        font-size: 3.33333333vw;
+        margin-bottom: .55555556vw;
+    }
+    .filter_content p{
+        font-size: 1.25vw;
+        margin-top: unset;
+        margin-bottom: unset;
+    } 
+    .img_tv_mob{
+        display: none;
+    }
+    .img_tv_tab{
+        display: block;
+    }
+    .img_home_tab{ 
+        display: block;
+    }
+    .img_home_mob{
+        display: none;
+    }
+    .recommended_products h2{
+        padding: 3.33333333vw  1.66666667vw 1.11111111vw 1.66666667vw;
+        font-size: 2.63888889vw; 
+    } 
+    .recomended_main{ 
+        max-width: 80vw;
+        margin: 2.22222222vw auto;
+    }
+    .recommended_cards{
+        width: 18.33333333vw;
+        margin:0 .83333333vw;
+        padding: 3.33333333vw 0vw 1.66666667vw 0vw;
+        border-radius: 1.38888889vw;
+    }
+    .recommended_cards_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .recommended_cards_content p{
+        display: -webkit-box;
+        font-size: 1.11111111vw;
+        margin: .55555556vw 1.11111111vw 1.11111111vw 1.11111111vw;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+    .clr{
+        font-size: .83333333vw;
+    }
+    .clr_inp{
+        height: 100%;
+        margin-bottom: .83333333vw;
+    }
+    .clr_inp input{
+        width: 1.66666667vw;
+        height: 1.66666667vw;
+    }
+    .kg_button button{
+        height: 1.94444444vw;
+        padding: 0;
+        font-size: .83333333vw;
+    }
+    .tax_details{
+        font-size: .83333333vw;
+    }
+    .price_secction{
+        margin: .83333333vw 1.11111111vw;
+        height: 100%;
+    }
+    .price span{
+        font-size: 1.25vw;
+    }
+    .emi_cal a{
+        font-size: .83333333vw;
+    } 
+    .recommended_cards_button{
+        margin-top: 1.66666667vw;
+    }
+    .recommended_cards_button button{
+        font-size: .97222222vw;
+        padding: .625vw 1.59722222vw .69444444vw 1.59722222vw;
+        height: 100%;
+        line-height: 1.31944444vw;
+        width: 16.11111111vw;
+    } 
+    .recommended_scroller_main{
+        display: none;
+    }                                                                       
+    .explore{
+        padding: 3.33333333vw 0;
+    } 
+    .explore h2{ 
+        font-size: 2.63888889vw;
+    }
+    .explore_card_main{
+        margin-top: 3.33333333vw; 
+        padding: 0vw 1.66666667vw;
+    } 
+    .explore_card_img{
+        width: 47.5vw;
+        height: 47.5vw;
+    }
+    .explore_card_img img{
+        width: 100%; 
+    }
+    .explore_scroller_main{
+        display: none;
+    }
+    .explore_card{
+        position: relative;
+    }
+    .explore_card_img{
+        border-radius: 1.38888889vw;
+    }
+    .explore_card_img img{
+        border-radius: 1.38888889vw;
+    }
+    .explore_card_content{
+        position: absolute;
+        top: 0;
+        margin-left: 49.16666667vw;
+        width: 47.5vw;
+        margin-top: 1.11111111vw;
+        margin-bottom: 1.45833333vw;
         padding-bottom: unset;
     }
-}
+    .explore_card_heading{
+        width: 44.5vw; 
+        height: 4.44444444vw;
+        justify-content: start;
+    }
+    .explore_card_heading h2{ 
+        font-size: 1.66666667vw;
+    }
+    .learn_more{
+        margin-top: .41666667vw;
+        justify-content: start; 
+    }
+    .learn_more a{ 
+        font-size: .97222222vw;
+        padding: .69444444vw 0vw .76388889vw 0vw; 
+        line-height: 1.31944444vw; 
+    }
+    .something_else{ 
+        margin-top: 3.33333333vw; 
+        margin-bottom: 1.11111111vw; 
+    } 
+    .something_else h2{ 
+        font-size: 2.63888889vw; 
+        line-height: 1.2; 
+    }
+    .something_else_contents{
+        padding: .55555556vw 0 3.88888889vw 0;
+        width: 41.66666667vw;
+        margin: 0 auto;
+    } 
+    .something_else_search{
+        display: flex;
+        justify-content: center;
+        height: unset;
+        margin-bottom: 1.11111111vw;
+    }
+    .something_else_search_inner{
+        position: relative;
+        padding: .83333333vw 3.33333333vw .83333333vw 4.44444444vw;
+        border-radius: 1.52777778vw;
+        
+    }
+    .something_else_search_inner p{
+        line-height: 1.66666667vw;
+        font-size: 1.25vw;
+        border-radius: 1.52777778vw;
+
+    }
+    .something_else_search_inner img{
+        width: 1.66666667vw;
+        height: 1.66666667vw;
+        left: 1.66666667vw;
+    }
+    .something_else_search_inner{
+        width: 31.11111111vw;
+        height: 3.47222222vw;
+    }
+    .search_suggetion li{
+        padding: .55555556vw 1.11111111vw;
+        font-size: .83333333vw;
+        margin: 0vw .27777778vw .55555556vw .27777778vw;
+    }
+    .list_main{
+        margin: 0vw 0vw 1.11111111vw 1.38888889vw;
+    }
+    .list_main li{
+        font-size: .83333333vw;
+    }
+    .lists{
+        padding: 6.66666667vw;
+        padding-top: 0;
+        padding-bottom: 1.66666667vw;
+    }
+    .list_main:last-child{
+        margin: 0vw 0vw 1.11111111vw 1.38888889vw; 
+    }
+
+} 
