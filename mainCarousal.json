@@ -1,0 +1,30 @@
+[
+    {
+        "img1":"https://images.samsung.com/is/image/samsung/assets/in/home/250521/MainKV_MO.jpg?imwidth=720",
+        "img2":"https://images.samsung.com/is/image/samsung/assets/in/home/250521/25_ym_1h_f01_01_promotion-kv_pc_1440x640.png?imwidth=1366",
+        "img3":"https://images.samsung.com/is/image/samsung/assets/in/home/250521/25_ym_1h_f01_01_promotion-kv_pc_1440x640.png?imwidth=1536",
+        "title":"#YouMake",
+        "description":"Stay close, Care smarter"
+    },
+    {
+        "img1":"https://images.samsung.com/is/image/samsung/assets/in/home/250604/VD_KV2_for_MO.jpg?imwidth=720",
+        "img2":"https://images.samsung.com/is/image/samsung/assets/in/home/250515/1440x640.jpg?imwidth=2560",
+        "img3":"https://images.samsung.com/is/image/samsung/assets/in/home/250515/1440x640.jpg?imwidth=2560",
+        "title":"Neo QLED 8K",
+        "description":"Starting ₹ 13237/mo. Get benefits up to ₹ 12000*"
+    },
+    {
+        "img1":"https://images.samsung.com/is/image/samsung/assets/in/home/250603/revise_Homepage_KV-M_bespoke_ai.jpg?imwidth=720",
+        "img2":"https://images.samsung.com/is/image/samsung/assets/in/home/250603/Homepage_KV-D_bespoke_ai.jpg?imwidth=2560",
+        "img3":"https://images.samsung.com/is/image/samsung/assets/in/home/250603/Homepage_KV-D_bespoke_ai.jpg?imwidth=2560",
+        "title":"The Big Bespoke AI Fest",
+        "description":"Smart living with Smart home appliances"
+    },
+    {
+        "img1":"https://images.samsung.com/is/image/samsung/assets/in/home/250204/HOME_P3_Main-KV_720x1080_mo1-copy.jpg?$ORIGIN_JPG$",
+        "img2":"https://images.samsung.com/is/image/samsung/assets/in/home/250206/HOME_P3_Main-KV_1440x640_pc_LTR.jpg?$ORIGIN_JPG$",
+        "img3":"https://images.samsung.com/is/image/samsung/assets/in/home/250206/HOME_P3_Main-KV_1440x640_pc_LTR.jpg?$ORIGIN_JPG$",
+        "title":"",
+        "description":"" 
+    }
+] 
