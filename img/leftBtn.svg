@@ -1,0 +1,10 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" focusable="false" aria-hidden="true">
+					<g fill="none" fill-rule="evenodd">
+						<g fill="none">
+							<circle cx="20" cy="20" r="20" stroke="#FFFFFF" fill-opacity="0.45" stroke-opacity="0.15"></circle>
+							<g fill-rule="nonzero" fill="#FFFFFF" fill-opacity="0.95">
+								<path d="M15.179 3.173L16.043 4.077 7.765 12 16.043 19.923 15.179 20.827 5.957 12z" transform="translate(8 8)" fill="#FFFFFF" fill-opacity="0.95"></path>
+							</g>
+						</g>
+					</g>
+				</svg>

@@ -1,0 +1,167 @@
+[
+    {
+        "img1":"https://images.samsung.com/is/image/samsung/assets/in/home/250529/big_tiles_mo.jpg?$624_352_JPG$",
+        "resImg1":"https://images.samsung.com/is/image/samsung/assets/in/home/250529/bigtile-3box_pc.jpg?$684_684_JPG$",
+        "title1":"OLED TV (2025)",
+        "subtitle1":"Starting ₹ 8718/mo.* ",
+        "des1":"Get benefits up to ₹ 11000*",
+
+        "img2":"https://images.samsung.com/is/image/samsung/assets/in/home/250529/A36_5G_Small_Tile_296x352.jpg?$296_352_JPG$",
+        "resImg2":"https://images.samsung.com/is/image/samsung/assets/in/home/250529/A36_5G_Small_Tile_296x352.jpg?$296_352_JPG$",
+        "title2":"Galaxy A36 5G",
+        "subtitle2":"Starting ₹ 28999*",
+        "des2":"",
+
+        "img3":"https://images.samsung.com/is/image/samsung/assets/in/home/250312/330x330_Small-Tile_Paradigm.jpg?$330_330_JPG$",
+        "resImg3":"https://images.samsung.com/is/image/samsung/assets/in/home/250312/330x330_Small-Tile_Paradigm.jpg?$330_330_JPG$",
+        "title3":"Galaxy S25 | S25+",
+        "subtitle3":"Starting ₹ 66999*",
+        "des3":"",  
+
+        "img4":"https://images.samsung.com/is/image/samsung/assets/in/home/250407/EP-T2510NBNG_296x352.jpg?$296_352_JPG$",
+        "resImg4":"https://images.samsung.com/is/image/samsung/assets/in/home/250416/WA80F08H2B_Small_Tile_330x330.jpg?$330_330_JPG$",
+        "title4":"Bespoke AI Top Load ",
+        "subtitle4":" Starting ₹ 20700*",
+        "des4":"",
+ 
+        "img5":"https://images.samsung.com/is/image/samsung/assets/in/home/250528/Galaxy-Book5-360_Small_Tile_330x330.jpg?$330_330_JPG$",
+        "resImg5":"https://images.samsung.com/is/image/samsung/assets/in/home/250528/Galaxy-Book5-360_Small_Tile_330x330.jpg?$330_330_JPG$",
+        "title5":"Galaxy Book5 360",
+        "subtitle5":"₹ 8000* instant discount",
+        "des5":"", 
+
+        "category":"newin"
+    },
+    {
+        "img1": "https://images.samsung.com/is/image/samsung/assets/in/home/250414/S25_titanium_bigtile_mo_2.jpg?$624_352_JPG$",
+        "resImg1": "https://images.samsung.com/is/image/samsung/assets/in/home/250414/S25_titanium_bigtile_pc_2.jpg?$684_684_JPG$",
+        "title1": "Galaxy S25 Ultra",
+        "subtitle1": "",
+        "des1": "Starting ₹ 117999* ",
+    
+        "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/0513/Fold6_Black_296x352.png?$296_352_PNG$",
+        "resImg2": "https://images.samsung.com/is/image/samsung/assets/in/home/0513/Fold6_Black_330X330.png?$330_330_PNG$",
+        "title2": "Galaxy Z Fold6",
+        "subtitle2": "24 months No Cost EMI",
+        "des2": "",
+    
+        "img3": "https://images.samsung.com/is/image/samsung/assets/in/home/250318/Small-Tile_296x352-A35.jpg?$296_352_JPG$",
+        "resImg3": "https://images.samsung.com/is/image/samsung/assets/in/home/250318/Small-Tile_330x330-A35.jpg?$330_330_JPG$",
+        "title3": "Galaxy A35 5G",
+        "subtitle3": "Starting ₹ 20999*",
+        "des3": "",  
+    
+        "img4": "https://images.samsung.com/is/image/samsung/assets/in/home/250605/S24_296x352.jpg?$296_352_JPG$",
+        "resImg4": "https://images.samsung.com/is/image/samsung/assets/in/home/250605/S24_330X330.jpg?$330_330_JPG$",
+        "title4": "Galaxy S24",
+        "subtitle4": "Starting ₹ 54999*",
+        "des4": "",
+    
+        "img5": "https://images.samsung.com/is/image/samsung/assets/in/home/250407/EP-T2510NBNG_296x352.jpg?$296_352_JPG$",
+        "resImg5": "//images.samsung.com/is/image/samsung/assets/in/home/250407/EP-T2510NBNG_330X330.jpg?$330_330_JPG$",
+        "title5": "Accessories",
+        "subtitle5": "Up to 25% off*",
+        "des5": "",
+    
+        "category": "mobile"
+    },
+    {
+        "img1": "https://images.samsung.com/is/image/samsung/assets/in/home/250515/bigtile__big_tiles_mo.jpg?$624_352_JPG$",
+        "resImg1": "https://images.samsung.com/is/image/samsung/assets/in/home/250515/bigtile-3box_pc.jpg?$684_684_JPG$",
+        "title1": "25' Neo QLED | OLED TVs",
+        "subtitle1": "",
+        "des1": "Get benefits up to ₹ 12000*",
+    
+        "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/296X352_TV_SMALL-TILE_QN90F.jpg?$296_352_JPG$",
+        "resImg2": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/330x330_TV_SMALL-TILE_QN90F.jpg?$330_330_JPG$",
+        "title2": "Neo QLED",
+        "subtitle2": "₹ 7000* bank discount ",
+        "des2": "",
+    
+        "img3": "https://images.samsung.com/is/image/samsung/assets/in/home/250507/296X352_QEF1A.jpg?$296_352_JPG$",
+        "resImg3": "https://images.samsung.com/is/image/samsung/assets/in/home/250507/330x330_QEF1A.jpg?$330_330_JPG$",
+        "title3": "QLED",
+        "subtitle3": "Benefits up to ₹ 8000*",
+        "des3": "",  
+    
+        "img4": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/296X352_TV_SMALL-TILE_S95F.jpg?$296_352_JPG$",
+        "resImg4": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/330x330_TV_SMALL-TILE_S95F.jpg?$330_330_JPG$",
+        "title4": "OLED",
+        "subtitle4": "₹ 4000* exchange bonus",
+        "des4": "",
+    
+        "img5": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/296X352_TV_SMALL-TILE_LS03F_.jpg?$296_352_JPG$",
+        "resImg5": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/330x330_TV_SMALL-TILE_LS03F_.jpg?$330_330_JPG$",
+        "title5": "The Frame",
+        "subtitle5": "Benefits up to ₹ 8000*",
+        "des5": "",
+    
+        "category": "tv"
+    },
+    {
+        "img1": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/twh/TWH_Appliances_Bespoke-AI-WM_624X352_Big-Tile.jpg?$624_352_JPG$",
+        "resImg1": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/twh/TWH_Appliances_Bespoke-AI-WM_684X684_Big-Tile.jpg?$684_684_JPG$",
+        "title1": "Bespoke AI Laundry",
+        "subtitle1": "Starting ₹ 29592*",
+        "des1": "Up to ₹ 9000 Bank discount*",
+    
+        "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/twh/Appliances_Small_Tile_296x352_WA80BG4441BGTL.jpg?$296_352_JPG$",
+        "resImg2": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/twh/Appliances_Small_Tile_330x330_WA80BG4441BGTL.jpg?$330_330_JPG$",
+        "title2": "8.0 kg Ecobbuble™",
+        "subtitle2": "Starting ₹ 15992*",
+        "des2": "",
+    
+        "img3": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/twh/New-In_RT51DG682BB1TL_Small_Tile_296x352.jpg?$296_352_JPG$",
+        "resImg3": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/twh/New-In_RT51DG682BB1TL_Small_Tile_330x330.jpg?$330_330_JPG$",
+        "title3": "Bespoke AI Refrigerator",
+        "subtitle3": "Starting ₹ 32990*",
+        "des3": "",  
+    
+        "img4": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/twh/Appliances_Small-Tile_296X352_AR60F19D15WNNA-Copy.jpg?$296_352_JPG$",
+        "resImg4": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/twh/Appliances_Small-Tile_330X330_AR60F19D15WNNA.jpg?$330_330_JPG$",
+        "title4": "WindFree™ AC",
+        "subtitle4": "Starting ₹ 36990*",
+        "des4": "",
+    
+        "img5": "https://images.samsung.com/is/image/samsung/assets/in/home/250605/28L-SlimFry_296x352.jpg?$296_352_JPG$",
+        "resImg5": "https://images.samsung.com/is/image/samsung/assets/in/home/250605/28L-SlimFry_330X330.jpg?$330_330_JPG$",
+        "title5": "28 L Microwave",
+        "subtitle5": "Starting ₹ 12140*",
+        "des5": "",
+    
+        "category": "appliences"
+    },
+    {
+        "img1": "https://images.samsung.com/is/image/samsung/assets/in/home/250407/Big_Tile_Dual_KV.jpg?$624_352_JPG$",
+        "resImg1": "https://images.samsung.com/is/image/samsung/assets/in/home/250407/Big_Tile_Dual_KV_PC.jpg?$684_684_JPG$",
+        "title1": "2025 New Odyssey",
+        "subtitle1": "",
+        "des1": "Get benefits up to ₹ 3000*",
+    
+        "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250403/S10-FE_296x352.jpg?$296_352_JPG$",
+        "resImg2": "https://images.samsung.com/is/image/samsung/assets/in/home/250403/S10-FE_330X330.jpg?$330_330_JPG$",
+        "title2": "Galaxy Tab S10 FE",
+        "subtitle2": "₹ 5000 bank discount",
+        "des2": "",
+    
+        "img3": "https://images.samsung.com/is/image/samsung/assets/in/home/0513/M5-296x352.jpg?$296_352_JPG$",
+        "resImg3": "https://images.samsung.com/is/image/samsung/assets/in/home/0513/M5-330x330.jpg?$330_330_JPG$",
+        "title3": "Smart Monitor M5",
+        "subtitle3": "Benefits up to ₹ 1700*",
+        "des3": "",  
+    
+        "img4": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/Galaxy-Ring_296x352.jpg?$296_352_JPG$",
+        "resImg4": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/Galaxy-Ring_330X330.jpg?$330_330_JPG$",
+        "title4": "Galaxy Ring",
+        "subtitle4": "Free 25W Travel Adapter",
+        "des4": "",
+    
+        "img5": "https://images.samsung.com/is/image/samsung/assets/in/home/250321/Galaxy_Book4_296x352-1.jpg?$296_352_JPG$",
+        "resImg5": "https://images.samsung.com/is/image/samsung/assets/in/home/250321/Galaxy_Book4_330X330.jpg?$330_330_JPG$",
+        "title5": "Galaxy Book4",
+        "subtitle5": "₹ 17490* bank discount",
+        "des5": "",
+
+        "category": "ecosystem"
+    }
+] 

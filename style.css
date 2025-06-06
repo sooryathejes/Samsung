@@ -68,39 +68,51 @@ header {
     width: 24px;
     height: 24px;
 }
-.carousel_main {
+/* ----carousel---- */
+.section_one{
+    position: relative;
+} 
+.carousel_main { 
     position: relative;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow: hidden;  
   }
   .carousel_slide {
     display: none;
-    position: absolute;
-    width: 100%;
+    position: absolute; 
+    width: 100%; 
     transition: opacity 0.5s ease;
-  }
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+  } 
   .carousel_slide.active {
-    display: block;
+    display: flex; 
     position: relative;
+    overflow: hidden;
   }
-
+ 
 .carousel {
     display: flex;
     width: 100%;
-    position: relative;
+    position: relative; 
     max-width: 1440px;
     margin: 0 auto;
+    overflow: hidden; 
 }
 .carousel picture{
     display: flex; 
+    line-height: 1;
+    height: 100%;
 }
 
 .carousel picture img {
+    display: block;
     width: 100%; 
     object-fit: cover;
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
 
 .carousel_content {
@@ -148,20 +160,32 @@ header {
 }
 
 .carousel_slider_inner {
+    display: flex;
+    justify-content: center; 
     position: absolute;
-    top: 0;
-    border-radius: 4.44444444vw;
+    top: 0; 
+    border-radius: 4.44444444vw; 
     background: white;
-    height: 24px;
     width: 37.75%;
 }
+.slider_play{
+    width: 4.44444444vw;
+    height: 4.44444444vw;
+    margin-right: 2.22222222vw;
+} 
+.slider_play img{
+    width: 100%;
+    height: 100%; 
+} 
+.section_two{ 
+    margin-top: -5px;
+}
 
-.this_week {
+.this_week { 
     width: 100%;
     padding-top: 8.88888889vw;
     margin-bottom: 4.44444444vw;
-
-}
+} 
 
 .this_week h2 {
     display: flex;
@@ -172,8 +196,8 @@ header {
     max-width: 86.66666667vw;
     margin: 0px auto;
     letter-spacing: .01px;
-}
-
+} 
+ 
 .tabs_black {
     display: flex;
     align-items: center;
@@ -210,6 +234,8 @@ header {
     padding-bottom: 1.11111111vw;
     border-bottom: 1px solid;
 }
+.card_section_main{
+}
 
 .card_section {
     display: flex;
@@ -217,8 +243,9 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     width: 91.11111111vw;
-    margin: 3px auto 0px auto;
     padding-bottom: 4.44444444vw;
+    left: 2.22222222vw;
+    margin: 3px auto 0px auto;
 }
 
 .main_card {
@@ -227,31 +254,30 @@ header {
     align-items: center;
     padding: 0vw 4.44444444vw 4.44444444vw 0vw;
     width: 100%;
-    border-radius: 5.55555556vw;
-    left: 2.22222222vw;
-
-}
+    border-radius: 5.55555556vw; 
+} 
 
 .main_card img {
-    width: 100%;
+    width: 100%; 
     border-radius: 5.55555556vw;
 
 }
 
 .sub_cards {
     width: 50%;
-    height: 33.333333%;
     padding: 0vw 4.44444444vw 4.44444444vw 0vw;
-    border-radius: 5.55555556vw;
+    border-radius: 5.55555556vw; 
     display: flex;
     position: relative;
 }
 
-.sub_cards img {
-    width: 100%;
-    border-radius: 5.55555556vw;
 
+.sub_cards  img{
+    width: 100%; 
+    border-radius: 5.55555556vw;
+    object-fit: cover;
 }
+
 
 .main_card_content {
     position: absolute;
@@ -269,6 +295,9 @@ header {
     font-family: Sft;
     color: #000000;
     font-size: 2.77777778vw;
+}
+.main_card picture{
+    display: flex;
 }
 
 .sub_card_content {
@@ -421,7 +450,6 @@ header {
     overflow-x: hidden;
 }
 
-.recommended_products {}
 
 .recommended_products h2 {
     padding: 8.88888888vw 6.66666667vw 4.44444444vw 6.66666667vw;
@@ -1138,6 +1166,12 @@ header {
     font-size: 16px;
     padding: 8.5px 24px;
 }
+.rightBtn{
+    display: none;
+}
+.leftBtn{
+    display: none;
+}
 
 @media screen and (min-width:768px) {
     .carousel_img_mob {
@@ -1177,7 +1211,7 @@ header {
 
     .carousel_slider_inner {
         display: none;
-    }
+    } 
 
     .button {
         display: flex;
@@ -1185,20 +1219,43 @@ header {
         align-items: center;
         padding: .625vw 1.59722222vw .69444444vw 1.59722222vw;
         font-size: .97222222vw;
-        line-height: 1.31944444vw;
+        line-height: 1.31944444vw; 
         margin-top: 2.77777778vw;
     }
+    .rightBtn{
+        display: block;
+        position: absolute;
+        width: 3.88888889vw;
+        height: 3.88888889vw;
+        padding: .55555556vw;
+        top: 50%;
+        right: 0;
+    }
+    .leftBtn{
+        display: block;
+        position: absolute;
+        width: 3.88888889vw;
+        height: 3.88888889vw; 
+        padding: .55555556vw;
+        top: 50%;
+        left: 0;
 
+    }
+    .leftBtn img{ 
+        width: 100%; 
+    }
+    .rightBtn img{
+        width: 100%;
+    }
+ 
     .this_week {
         padding-top: 3.33333333vw;
         margin-bottom: 1.11111111vw;
-
-    }
+    } 
 
     .this_week h2 {
         font-size: 2.63888889vw;
         max-width: 96.66666667vw;
-
     }
 
     .tabs_black {
@@ -1220,12 +1277,12 @@ header {
 
     .card_section {
         width: 98.307vw;
-        height: 49.16666667vw;
-        flex-direction: column;
-        flex-wrap: wrap;
+        height: 49.16666667vw; 
+        flex-direction: column; 
+        flex-wrap: wrap; 
         padding-bottom: unset;
-        left: .83333333vw;
-    }
+        left: .83333333vw; 
+    } 
 
     .main_card img {
         border-radius: 1.38888889vw;
@@ -1277,13 +1334,13 @@ header {
     }
 
     .sub_card_content h2 {
+        max-width: 20.69444444vw;
         font-size: 1.25vw;
     }
 
-    /* .mobile_main{
-        max-width: 1440px;
-        margin: 0 auto;
-    } */
+    .mobile_main{
+        margin-top: -4px;
+    }
     .img_cover_tab {
         display: block;
     }
@@ -1811,5 +1868,6 @@ header {
         height: 40px;
     }
     
-
+ 
 } 
+ 
