@@ -235,17 +235,17 @@ header {
     border-bottom: 1px solid;
 }
 .card_section_main{
-}
+} 
 
 .card_section {
     display: flex;
     position: relative;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 91.11111111vw;
+    flex-wrap: wrap;  
+    width: 91.11111111vw; 
     padding-bottom: 4.44444444vw;
     left: 2.22222222vw;
-    margin: 3px auto 0px auto;
+    margin: 3px auto 0px auto; 
 }
 
 .main_card {
@@ -313,6 +313,9 @@ header {
     max-height: 8.88888889vw;
     max-width: 37.77777778vw;
     font-family: Bld;
+}
+.mobilefilter{
+    display: flex; 
 }
 
 .mobile_main {
@@ -1271,10 +1274,10 @@ header {
 
     .tabs p {
         font-size: 1.25vw;
-        line-height: 1.66666667vw;
+        line-height: 1.66666667vw; 
         padding-bottom: unset;
-    }
-
+    } 
+ 
     .card_section {
         width: 98.307vw;
         height: 49.16666667vw; 
@@ -1284,7 +1287,7 @@ header {
         left: .83333333vw; 
     } 
 
-    .main_card img {
+    .main_card img { 
         border-radius: 1.38888889vw;
     }
 
@@ -1331,7 +1334,7 @@ header {
         margin-left: 9.86111111vw;
         left: 0;
         text-align: center;
-    }
+    } 
 
     .sub_card_content h2 {
         max-width: 20.69444444vw;
@@ -1867,7 +1870,116 @@ header {
         padding: 9px 23px 10px 23px;
         height: 40px;
     }
-    
- 
+    .this_week h2{
+        font-size: 38px;
+        padding-top: 48px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+    }
+    .this_week{
+        padding-top: unset;
+        margin-bottom: unset;
+    }
+    .tabs p{
+        font-size: 18px;
+    }
+    .tabs_black{
+        height: unset;
+        padding: 6.7px 0;
+    }
+    .card_section_main{
+        padding-bottom: 24px;
+    }
+    .card_section{
+        max-width: 1396px;
+        height: 708px;
+        left: unset;
+    }
+    .main_card{
+        width: 708px;
+        border-radius: 20px;
+        padding: 0px 24px 24px 0px;
+    }
+    .sub_cards img{
+        border-radius: 20px;
+        width: 330px;
+        height: 330px;
+    }
+    .sub_cards{
+        border-radius: 20px;
+        width: 354px;
+        height: 354px;
+        padding: 0px 24px 24px 0px;
+
+    }
+    .main_card_content{
+        width: 400px;
+        height: 82px;
+        bottom: 72px;
+        margin-left: 142px;
+       
+    }
+    .sub_card_content h2{
+        width: 298px;
+        height: 47.88px;
+        font-size: 18px;
+    }
+    .sub_card_content{
+        top: 64%;
+        left: 5%;
+    }
+    .main_card img{
+        height: 684px;
+        width: 684px;
+        border-radius: 20px;
+    }
+    .main_card_content_head h2{
+        font-size: 24px;
+        margin-bottom: 0;
+        line-height: 1.33;
+    }
+    .main_card_content p{
+        height: 19px;
+    }
+    .mobile_main{
+        max-width: 1440px;
+        margin: 0 auto; 
+    }
+    .filter_content_main{
+        /* height: 554px; */
+        margin-top: 168px;
+    }
+    .filter_content{
+        height: 554px; 
+    }
+    .prd_header h2{
+        font-size: 38px;
+        margin-top: 48px; 
+    }
+    .tabs_prd{
+        padding: 6px 0;
+        height: 64px;
+        margin: 0;
+    }
+    .filter_content h2{
+        font-size: 48px;
+    }
+    .filter_content p{
+        font-size: 18px;
+    }
+    .filter_content_button{
+        height: 88px;
+    }
+    .filter_content_button button{
+        padding:9px 23px 10px 23px;
+        font-size: 14px;
+    }
+    .tv_main{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .home_main{
+        max-width: 1440px;
+        margin: 0 auto;
+    } 
 } 
- 

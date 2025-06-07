@@ -4,6 +4,7 @@ const cardSectionMain = document.querySelector('.card_section_main')
 const leftBtn = document.querySelector('.leftBtn');
 const rightBtn = document.querySelector('.rightBtn');
 const tabsBlack = document.querySelectorAll('.tabs_black .tabs');
+const mobileFilter = document.querySelector('.mobile_main')
 
 
 
@@ -75,24 +76,24 @@ let startAutoSlide = () => {
 
 if (leftBtn && rightBtn) {
    leftBtn.addEventListener('click', () => {
-     clearInterval(autoSlideInterval);
-     showSlide(currentSlide - 1);
-     
+      clearInterval(autoSlideInterval);
+      showSlide(currentSlide - 1);
+
    });
- 
+
    rightBtn.addEventListener('click', () => {
-     clearInterval(autoSlideInterval);
-     showSlide(currentSlide + 1);
+      clearInterval(autoSlideInterval);
+      showSlide(currentSlide + 1);
    });
- } else {
+} else {
    console.warn("Left or right button not found in DOM.");
- }
- 
+}
+
 fetchMainCarousal();
 // --main-carousal-innerHTML-end--
 
 //This week fetch start
-let weekData  = []
+let weekData = []
 let weekFetch = async () => {
    try {
       let rel = await fetch('./thisWeeks.json');
@@ -100,13 +101,13 @@ let weekFetch = async () => {
       weekData = data
       tabsBlack[0].click();
    } catch (error) {
-      console.log(error); 
+      console.log(error);
    }
 };
 
 let renderThisWeek = (cards) => {
-   cardSectionMain.innerHTML = ''; 
- 
+   cardSectionMain.innerHTML = '';
+
    cards.forEach((prodctInfo) => {
       const card = document.createElement('div');
       card.classList.add('card_section');
@@ -153,11 +154,11 @@ let renderThisWeek = (cards) => {
                     </div>
                 </div>
          
-      `; 
+      `;
 
-      cardSectionMain.appendChild(card); 
-   });  
-}; 
+      cardSectionMain.appendChild(card);
+   });
+};
 
 
 let filterThisWeek = (category) => {
@@ -170,8 +171,86 @@ tabsBlack.forEach(tab => {
       const category = tab.innerText.trim().toLowerCase().replace(/\s+/g, '');
       tabsBlack.forEach(t => t.style.borderBottom = '');
       tab.style.borderBottom = '2px solid black'
-      filterThisWeek(category );
-      
+      filterThisWeek(category);
+
    });
 });
-weekFetch() 
+weekFetch()
+//week fetch end
+
+//mobile fetch start 
+
+
+async function fetchMobile() {
+  try {
+    const res = await fetch('./mobile.json');
+    const data = await res.json();
+    renderMobileData(data.mobile);
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+}
+
+// function renderMobileData(products) {
+//   mobileFilter.innerHTML = '';
+
+//   products.forEach((mbl) => {
+//     const mblscrn = document.createElement('div');
+//     mblscrn.classList.add('filter_content_main');
+
+//     mblscrn.innerHTML = ` 
+//                 <div class="prd_header">
+//                     <h2>Mobile</h2>
+//                     <div class="prd_scroll">
+//                         <ul class="tabs_prd">
+//                             <li class="tabs">
+//                                 <p>Galaxy S25 Ultra</p>
+//                             </li>
+//                             <li class="tabs">
+//                                 <p>Galaxy S25 | S25+</p>
+//                             </li>
+//                             <li class="tabs">
+//                                 <p>Galaxy S25 Seeries</p>
+//                             </li>
+//                             <li class="tabs">
+//                                 <p>Galexy Tab S10 Series</p>
+//                             </li>
+//                             <li class="tabs">
+//                                 <p>Galaxy Watch Ultra</p>
+//                             </li>
+
+//                         </ul>
+//                     </div>
+
+//                 </div>
+
+//                 <div class="filter_content_main">
+//                     <div class="filter_content">
+//                         <h2>Galexy S25 Ultra</h2>
+//                         <p>Starting ₹ 117999* <br>Incl. ₹ 11000 Instant bank discount or ₹ 12000 exchange bonus </p>
+//                     </div>
+
+
+//                 </div>
+
+//                 <div class="filter_content_button">
+//                     <button>
+//                         Buy now
+//                     </button>
+//                 </div>
+//                 <div class="prd_img">
+//                     <img class="img_cover_mob"
+//                         src="https://images.samsung.com/is/image/samsung/assets/in/home/250217/new_HOME_P3_MX-KV_720x1280_mo-revised.jpg?$720_1280_JPG$"
+//                         alt="">
+//                     <img class="img_cover_tab"
+//                         src="https://images.samsung.com/is/image/samsung/assets/in/home/250124/S24UltraPMimage.png?$1440_810_PNG$"
+//                         alt="">
+//                 </div>
+//     `;
+
+//     mobileFilter.appendChild(mblscrn);
+//   });
+// }
+
+// fetchMobile();
+
