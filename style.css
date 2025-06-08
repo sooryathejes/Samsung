@@ -1967,19 +1967,19 @@ header {
     .filter_content p{
         font-size: 18px;
     }
-    .filter_content_button{
+    .filter_content_button{ 
         height: 88px;
     }
     .filter_content_button button{
         padding:9px 23px 10px 23px;
         font-size: 14px;
     }
-    .tv_main{
-        max-width: 1440px;
-        margin: 0 auto;
-    }
-    .home_main{
+    .tv_main{ 
         max-width: 1440px;
         margin: 0 auto;
     } 
-} 
+    .home_main{
+        max-width: 1440px; 
+        margin: 0 auto; 
+    } 
+}   
