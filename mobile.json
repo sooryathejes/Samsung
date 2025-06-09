@@ -5,36 +5,103 @@
             "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250124/S24UltraPMimage.png?$1440_810_PNG$",
             "title": "Galaxy S25 Ultra",
             "des1": "Starting ₹ 117999* ",
-            "des2": ""
+            "des2": "",
+            "category": "galaxyS25Ultra"
         },
         {
             "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/new_HOME_P1P2_MX-KV_720x1280_mo.jpg?$720_1280_JPG$",
             "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/HOME_P1P2_MX-KV_1440x810_pc.jpg?$1440_810_JPG$",
             "title": "Galaxy S25 | S25+",
             "des1": "Starting ₹ 66999* ",
-            "des2": "Incl. of ₹ 8000* exchange bonus"
+            "des2": "Incl. of ₹ 8000* exchange bonus",
+            "category": "galaxyS25Plus"
         },
         {
             "img": "https://images.samsung.com/is/image/samsung/assets/in/ExclusiveColor_720x1280.jpg?$720_1280_JPG$",
             "img2": "https://images.samsung.com/is/image/samsung/assets/in/ExclusiveColor_1440x810.jpg?$1440_810_JPG$",
             "title": "Samsung.com special colors",
             "des1": "Starting ₹ 66999* ",
-            "des2": "Incl. of ₹ 8000 exchange bonus"
+            "des2": "Incl. of ₹ 8000 exchange bonus",
+            "category": "galaxyS25Series"
         },
         {
             "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/pm/4_Mob.jpg?$720_1280_JPG$",
             "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250123/pm/4_Desk.jpg?$1440_810_JPG$",
             "title": "Galaxy Tab S10 Series",
             "des1": "Starting ₹ 4278/mo*",
-            "des2": "Avail up to ₹ 15000* instant bank discount"
+            "des2": "Avail up to ₹ 15000* instant bank discount",
+            "category": "galaxyTab"
         },
         {
             "img": "https://images.samsung.com/is/image/samsung/assets/in/home/241030/Mobile_Spot4.1.jpg?$720_1280_JPG$",
             "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/241030/Mobile_Spot4.jpg?$1440_810_JPG$",
             "title": "Galaxy Watch Ultra",
             "des1": "Starting ₹ 53999*",
-            "des2": "Avail ₹ 6000* instant bank discount"
+            "des2": "Avail ₹ 6000* instant bank discount",
+            "category": "galaxyWatch"
+        }
+    ],
+    "tvs": [
+        {
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/Product-marketing-section_Moblie.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250528/Product_marketing_section_dekstop.jpg?$1440_810_JPG$",
+            "title": "Neo QLED HQ",
+            "des1": "Starting ₹ 13237/mo.",
+            "des2": "Get benefits up to ₹ 12000*",
+            "category": "2025tvs"
+        },
+        {
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/Product-marketing-section_Moblie.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250528/Product_marketing_section_dekstop.jpg?$1440_810_JPG$",
+            "title": "OLED",
+            "des1": "Starting ₹ 7952/mo.",
+            "des2": "Get free UHD TV & addl. benefits up to ₹ 7000",
+            "category": "oled"
+        },
+        {
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/Product-marketing-section_Moblie.jpg?$720_1280_JPG$",
+            "img2": "",
+            "title": "",
+            "des1": "",
+            "des2": "",
+            "category": ""
+        },
+        {
+            "img": "",
+            "img2": "",
+            "title": "",
+            "des1": "", 
+            "des2": "",
+            "category": "" 
+        },
+        { 
+            "img": "",
+            "img2": "",
+            "title": "",
+            "des1": "",
+            "des2": "",
+            "category": ""
+        }
+    ],
+    "footer": [
+        {
+            "title": "Product & Service",
+            "items": [
+                "Smartphones",
+                "Tablet",
+                "Audio Sound",
+                "Watches",
+                "Smart Switch",
+                "Mobile Accessories",
+                "TVs",
+                "Sound Devices",
+                "Refrigerators",
+                "Laundry",
+                "Air Solutions",
+                "Cooking Appliances",
+                "Monitors",
+                "Memory Storage"
+            ]
         }
     ]
-
 }
