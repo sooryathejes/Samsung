@@ -41,7 +41,7 @@
             "category": "galaxyWatch"
         }
     ],
-    "tvs": [
+    "tvs": [ 
         {
             "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/Product-marketing-section_Moblie.jpg?$720_1280_JPG$",
             "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250528/Product_marketing_section_dekstop.jpg?$1440_810_JPG$",
@@ -51,57 +51,170 @@
             "category": "2025tvs"
         },
         {
-            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/Product-marketing-section_Moblie.jpg?$720_1280_JPG$",
-            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250528/Product_marketing_section_dekstop.jpg?$1440_810_JPG$",
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/S90D_moblie-1.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/S90D-1.jpg?$1440_810_JPG$",
             "title": "OLED",
             "des1": "Starting ₹ 7952/mo.",
             "des2": "Get free UHD TV & addl. benefits up to ₹ 7000",
             "category": "oled"
         },
         {
-            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250506/Product-marketing-section_Moblie.jpg?$720_1280_JPG$",
-            "img2": "",
-            "title": "",
-            "des1": "",
-            "des2": "",
-            "category": ""
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250407/OneLaunch-720x1280.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250407/OneLaunch-1440x810.jpg?$1440_810_JPG$",
+            "title": "2025 New Odyssey",
+            "des1": "The next phase of gaming",
+            "des2": "Get benefits up to ₹ 3000*",
+            "category": "monitor"
         },
         {
-            "img": "",
-            "img2": "",
-            "title": "",
-            "des1": "", 
-            "des2": "",
-            "category": "" 
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/LS03D_moblile-1.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/LS03D-1.jpg?$1440_810_JPG$",
+            "title": "The Frame",
+            "des1": "Starting ₹ 60490*",
+            "des2": "Get free Bezel & addl. benefits up to ₹ 5000*",
+            "category": "theframe"
         },
-        { 
-            "img": "",
-            "img2": "",
-            "title": "",
-            "des1": "",
+        {
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/DUE-70_Lifestyle_02_moblie_-1.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/DUE-70_Lifestyle_02_-1.jpg?$1440_810_JPG$",
+            "title": "Crystal 4K UHD",
+            "des1": "Get up to ₹ 1250* instant bank discount",
             "des2": "",
-            "category": ""
+            "category": "crystal4kuhd"
         }
     ],
-    "footer": [
+    "homeAppliances": [ 
+        { 
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/1-720x1280_PM_ACs-2025.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/1-1440x810_PM_ACs-2025.jpg?$1440_810_JPG$",
+            "title": "BESPOKE AI WindFree™ AC",
+            "des1": "AI that truly saves and cools", 
+            "des2": "Starting ₹ 36990*",
+            "category": "BespokeAIWindFree™" 
+          },
+          { 
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/2-TMF_Product-Marketing-Section_720x1280.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/2-TMF_Product-Marketing-Section_1440x810.jpg?$1440_810_JPG$",
+            "title": "Bespoke AI Refrigerator",
+            "des1": "Beautiful, Intelligent Flexible",
+            "des2": "Starting ₹ 32990*", 
+            "category": "BespokeAIDoubleDoor"  
+          },  
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/3-PM_RF71DB9950QD_720x1280.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/20250218/PM_RF71DB9950QD_1440x810.jpg?$1440_810_JPG$",
+            "title": "Bespoke AI Refrigerator",
+            "des1": "Beautiful, Intelligent Flexible",
+            "des2": "Starting ₹ 354490*",
+            "category": "BespokeAIFrenchDoor"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250523/PM_720x1280.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250523/PM_1440x810.jpg?$1440_810_JPG$",
+            "title": "Bespoke AI Top Load Washer",
+            "des1": "Intelligent wash. More savings.",
+            "des2": "Starting ₹ 20700*",
+            "category": "BespokeAITopLoadWasher"
+          },
+          {
+            "img": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/5-WM_Bespoke_PM_720x1280.jpg?$720_1280_JPG$",
+            "img2": "https://images.samsung.com/is/image/samsung/assets/in/home/250217/5-WM_Bespoke_PM_1440x810.jpg?$1440_810_JPG$",
+            "title": "Bespoke AI Laundry",
+            "des1": "Total AI Laundry. Perfect Washcare",
+            "des2": "Starting ₹ 29592*",
+            "category": "BespokeAIFrontLoad" 
+          }
+    ],
+    "recommended" : [
         {
-            "title": "Product & Service",
-            "items": [
-                "Smartphones",
-                "Tablet",
-                "Audio Sound",
-                "Watches",
-                "Smart Switch",
-                "Mobile Accessories",
-                "TVs",
-                "Sound Devices",
-                "Refrigerators",
-                "Laundry",
-                "Air Solutions",
-                "Cooking Appliances",
-                "Monitors",
-                "Memory Storage"
-            ]
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/hw-b650d-xl/gallery/in-b-series-soundbar-hw-b650d-hw-b650d-xl-thumb-541812461?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/hw-b650d-xl/gallery/in-b-series-soundbar-hw-b650d-hw-b650d-xl-thumb-541812461?$216_216_PNG$",
+            "name":"B-series Soundbar 370W 3.1ch. B650D",
+            "color":"Black",
+            "mrp1":"₹ 31900.00",
+            "mrp2":"Save ₹14910.00",
+            "price":"₹ 16990.00"
+        },
+        {
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/sm-a366ezajins/gallery/in-galaxy-a36-5g-sm-a366-539188-sm-a366ezajins-thumb-545215084?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/sm-a366ezajins/gallery/in-galaxy-a36-5g-sm-a366-539188-sm-a366ezajins-thumb-545215084?$216_216_PNG$",
+            "name":"Galaxy A36 5G (8 GB Memory)", 
+            "color":"Awsome White",
+            "mrp1":"₹ 31900.00",
+            "mrp2":"Save ₹5000.00",
+            "price":"₹ 30999.00"
+        },
+        {
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/ww90dg6u24astl/gallery/in-ww6000d-529739-529739-ww90dg6u24astl-thumb-544511187?$216_216_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/ww90dg6u24astl/gallery/in-ww6000d-529739-529739-ww90dg6u24astl-thumb-544511187?$132_132_PNG$",
+            "name":"9.0 kg Front Load Washing Machine with AI Control & Superspeed, WW90DG6U24AS", 
+            "color":"Navy",
+            "mrp1":"₹ 57990.00",
+            "mrp2":"Save ₹18000.00",
+            "price":"₹ 39990.00"
+        },
+        {
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/wa80bg4441bgtl/gallery/in-wa4000b-433542-wa80bg4441bgtl-thumb-533454835?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/wa80bg4441bgtl/gallery/in-wa4000b-433542-wa80bg4441bgtl-thumb-533454835?$216_216_PNG$",
+            "name":"", 
+            "color":"",
+            "mrp1":"",
+            "mrp2":"",
+            "price":""
+        },
+        {
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/ps_2504/gallery/in-galaxy-s25-s937-sm-s937bzscins-thumb-546082704?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/ps_2504/gallery/in-galaxy-s25-s937-sm-s937bzscins-thumb-546082704?$216_216_PNG$",
+            "name":"8.0 kg Ecobubble™ Top Load Washing Machine, WA80BG4441BG", 
+            "color":"Light Gray",
+            "mrp1":"₹ 27000.00",
+            "mrp2":"Save ₹7010.00",
+            "price":"₹ 19990.00"
+        },
+        {
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bzkbins-thumb-544702763?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/2501/gallery/in-galaxy-s25-s938-sm-s938bzkbins-thumb-544702763?$216_216_PNG$",
+            "name":"Galaxy S25 Edge", 
+            "color":"Titanium Silver",
+            "mrp1":"",
+            "mrp2":"",
+            "price":"₹ 121999.00"
+        },
+        {
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/np960qha-kg1in/gallery/in-galaxy-book5-pro-360-16-inch-np960-np960qha-kg1in-thumb-545246667?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/np960qha-kg1in/gallery/in-galaxy-book5-pro-360-16-inch-np960-np960qha-kg1in-thumb-545246667?$216_216_PNG$",
+            "name":"Galaxy S25 Ultra", 
+            "color":"Titanium Black",
+            "mrp1":"₹ 129999.00",
+            "mrp2":"Save ₹12000.00",
+            "price":"₹ 117999.00"
+        },
+        {
+            "img1":"//images.samsung.com/is/image/samsung/p6pim/in/sm-x520nzaains/gallery/in-galaxy-tab-s10-fe-sm-x526-sm-x520nzaains-thumb-545686823?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/sm-x520nzaains/gallery/in-galaxy-tab-s10-fe-sm-x526-sm-x520nzaains-thumb-545686823?$216_216_PNG$",
+            "name":"Galaxy Book5 Pro 360, 40.62 cm, Core™ Ultra 7, 16 GB, Intel® Arc™ Graphics", 
+            "color":"Gray",
+            "mrp1":"₹ 196790.00",
+            "mrp2":"Save ₹32800.00",
+            "price":"₹ 163990.00"
+        },
+        {
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/qa43q7faaulxl/gallery/in-qled-q7f-qa43q7faaulxl-thumb-545419708?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/qa43q7faaulxl/gallery/in-qled-q7f-qa43q7faaulxl-thumb-545419708?$216_216_PNG$",
+            "name":"Galaxy Tab S10 FE (Wi-Fi, 8 GB Memory)", 
+            "color":"Gray",
+            "mrp1":"₹ 49999.00",
+            "mrp2":"Save ₹7000.00",
+            "price":"₹ 42999.00"
+        },
+        {
+            "img1":"https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-buds3-pro-r630-sm-r630nzaainu-thumb-542134811?$132_132_PNG$",
+            "img2":"https://images.samsung.com/is/image/samsung/p6pim/in/2407/gallery/in-galaxy-buds3-pro-r630-sm-r630nzaainu-thumb-542134811?$216_216_PNG$",
+            "name":"1.08 m (43) Q7F QLED 4K Smart TV", 
+            "color":"",
+            "mrp1":"₹ 65900.00",
+            "mrp2":"Save ₹16410.00",
+            "price":"₹ 49490.00"
         }
     ]
-}
+} 

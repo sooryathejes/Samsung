@@ -334,7 +334,6 @@ header {
 .prd_header {
     width: 100%;
     position: absolute;
-    top: 0;
     z-index: 111;
 }
 
@@ -356,7 +355,7 @@ header {
     align-items: center;
     margin-bottom: 3.61111111vw;
     color: white;
-    font-family: Bld;
+    font-family: Bld; 
     padding: 1.11111111vw 0 1.11111111vw 0;
     overflow-x: scroll;
     height: 17.7778vw;
@@ -1188,7 +1187,10 @@ header {
     padding: 10px;
     border-bottom: 1px solid #ccc;
     cursor: pointer;
-  }
+}
+.recomended_img_tab{
+    display: none;
+}
 
 @media screen and (min-width:768px) {
     .carousel_img_mob {
@@ -1441,7 +1443,7 @@ header {
     }
 
     .recommended_cards {
-        width: 18.33333333vw;
+        width: 18.33333333vw !important; 
         margin: 0 .83333333vw;
         padding: 3.33333333vw 0vw 1.66666667vw 0vw;
         border-radius: 1.38888889vw;
@@ -1746,6 +1748,13 @@ header {
     .footer_drops_main{
         border-right: 1px solid rgba(0, 0, 0, 0.15);
     }
+    .recomended_img_tab{
+        display: block;
+    }
+    .recomended_img_mob{
+        display: none; 
+    }
+    
 }
 
 @media screen and (min-width:1280px) {
@@ -2094,7 +2103,7 @@ header {
     .recomended_main{
         margin-top: 32px;
         margin-bottom: 32px;
-        width: 1440px;
+        max-width: 1440px;
         margin: 0 auto;
     }
     .recommended_products h2{
